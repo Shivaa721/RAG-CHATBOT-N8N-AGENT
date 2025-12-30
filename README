@@ -1,0 +1,39 @@
+# Document Knowledge Retrieval Agent
+
+## Overview
+This project is a **document-based knowledge retrieval system** built using n8n.
+
+It automatically processes uploaded documents and allows users to ask questions based on the content of those documents.
+
+## What This Agent Does
+- Monitors cloud storage for new documents
+- Processes and indexes document content
+- Stores document data in a vector database
+- Answers user queries using document context
+
+## Key Features
+- Automatic document ingestion
+- Context-based question answering
+- Scalable document indexing
+- Chat-style interaction with stored documents
+
+## Tech Stack
+- n8n
+- Google Drive
+- Vector Database
+- OpenAI
+
+## Workflow Steps
+1. New document is uploaded to cloud storage
+2. Document content is processed and indexed
+3. User asks a question related to the document
+4. Relevant information is retrieved and returned
+
+## Use Cases
+- Internal company knowledge bases
+- Document Q&A systems
+- Research and report automation
+
+## Notes
+- This repository contains an exported **n8n workflow (JSON)**.
+- Designed as an internal knowledge automation tool.
